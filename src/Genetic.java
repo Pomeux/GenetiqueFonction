@@ -35,9 +35,14 @@ public class Genetic {
     private ArrayList<Integer> represent_solution(int[] intervalle,int precision) {
 
         int size=precision*nbVariable(intervalle);
-        double a=(double) size;
 
-        int nbBit=Math.log(1.0);
+
+        int nbBit=(int) Math.floor(Math.log((double) size));
+
+        for(int i=0;i<size;i++) {
+            
+
+        }
 
         return null;
     }
